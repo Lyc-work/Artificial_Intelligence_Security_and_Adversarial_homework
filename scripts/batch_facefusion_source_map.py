@@ -391,6 +391,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# CUDA_VISIBLE_DEVICES=3 python scripts/batch_facefusion_source_map.py   --facefusion-script /data1/liyichen/document/facefusion/facefusion.py   --source-map work/logs/source_per_target_selection/selected_source_map.csv   --target-dir work/target_frames  --output-dir outputs/source_selection  --temp-root work/temp/source_map_gpu3   --jobs-root work/jobs/source_map_gpu3  --skip-exists
