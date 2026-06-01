@@ -545,6 +545,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# CUDA_VISIBLE_DEVICES=2 python scripts/select_source_per_target.py --image-list data/image_list.txt --target-dir work/target_frames --source-candidates-dir work/source_candidates --selected-source-dir work/selected_sources_per_target --log-dir work/logs/source_per_target_selection --w-quality 0.45 --w-identity 0.25 --w-expression 0.15 --w-pose 0.10 --w-lighting 0.05 --overwrite
