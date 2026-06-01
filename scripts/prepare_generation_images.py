@@ -461,5 +461,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-# python -m scripts.prepare_generation_images   --mode extract-all   --image-list data/image_list.txt   --videos-dir data/videos   --target-frames-dir work/target_frames_test  --source-candidates-dir work/source_candidates
