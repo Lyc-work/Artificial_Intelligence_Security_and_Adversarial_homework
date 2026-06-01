@@ -1,4 +1,4 @@
-# 果壳人工智能安全与对抗图像生成赛道作业
+# Artificial Intelligence Security and Adversarial homework
 
 本项目用于对原始视频进行预处理，提取目标帧与候选源帧，并根据质量、身份相似度、表情、姿态和光照等指标，为每个 target 自动选择最合适的 source 图片，最后调用 FaceFusion 完成批量换脸生成。
 
